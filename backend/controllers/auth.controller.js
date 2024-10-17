@@ -29,6 +29,15 @@ export const signup = async(req, res) => {
 
         generateTokenAndSetCookies(res,user._id);
 
+        res.status(201).json({
+            success:true,
+            message:"User Created succesfully",
+            user:{
+                ...user._doc,
+                password: undefined
+            }
+        })
+
     } catch (error) {
         res.status(400).json({success:false, message:error.message});
     }
