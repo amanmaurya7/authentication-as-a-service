@@ -33,7 +33,8 @@ This project provides a robust Authentication-as-a-Service solution built using 
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/authentication-as-a-service.git cd authentication-as-a-service
+git clone https://github.com/yourusername/authentication-as-a-service.git 
+cd authentication-as-a-service
 
 ### 2. Set Up Environment Variables
 
